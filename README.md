@@ -50,7 +50,6 @@ Otherwise, it prints the number.](day15.md)
 Read two inputs. 
 The first input is a digit. 
 The second input is a number. 
-
 Is the digit present in the number? If yes, return True.
 If no, return False.](day16.md)
 
@@ -59,7 +58,6 @@ Write a program that receives a number on the input.
 If the number is a multiple of 3, it prints "Jugs". 
 If the number is a multiple of 5, it prints "Mugs".
 If the number is a multiple of 7, it prints "Pugs".
-
 If the number is a multiple of both 3 and 5, it prints "JugsMugs".
 If the number is a multiple of both 3 and 7, it prints "JugsPugs".
 If the number is a multiple of both 5 and 7, it prints "MugsPugs".
@@ -69,16 +67,13 @@ If the number is a multiple of both 3, 5 and 7, it prints "JugsMugsPugs".](day17
   - If the number is a multiple of 3, it prints "Jugs". 
   - If the number is a multiple of 5, it prints "Mugs".
   - If the number is a multiple of 7, it prints "Pugs".
-
   - If the number is a multiple of both 3 and 5, it prints "JugsMugs".
   - If the number is a multiple of both 3 and 7, it prints "JugsPugs".
   - If the number is a multiple of both 5 and 7, it prints "MugsPugs".
   - If the number is a multiple of both 3, 5 and 7, it prints "JugsMugsPugs".](day18.md)
   
   19 [Write a program that receives a number on the input.
-
   - If the number is a multiple of 3, or it contains digit 3, it prints "Jugs". 
   - If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
   - If the number is a multiple of 7, or it contains digit 7, it prints "Pugs".
-
 Otherwise, it prints the number.](day19..md)
