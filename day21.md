@@ -44,3 +44,40 @@ OUTPUT
 JugsMugsPugs
 
 ```
+
+num=int(input())
+rev=int(input())
+if rev==1:
+  if (num%3==0 and num%5==0 and num%7==0)or(('3'and'7'and'5') in str(num)):
+    print("PugsMugsJugs")
+  elif (num%3==0 and num%5==0)or(('3'and'5') in str(num)):
+    print("MugsJugs")
+  elif (num%3==0 and num%7==0)or(('3'and'7') in str(num)):
+    print("PugsJugs")
+  elif (num%5==0 and num%7==0)or(('5'and'7') in str(num)):
+    print("PugsJugs")
+  elif (num%3==0)or('3' in str(num)):
+    print("Jugs")
+  elif (num%5==0)or('5' in str(num)):
+    print("Mugs")
+  elif (num%7==0)or('7' in str(num)):
+    print("Pugs")
+  else:
+    print(num)
+else:
+  if (num%3==0 and num%5==0 and num%7==0)or(('3'and'5'and'7') in str(num)):
+   print("JugsMugsPugs")
+  elif (num%3==0 and num%5==0)or('3'and'5' in str(num)):
+    print("JugsMugs")
+  elif (num%3==0 and num%7==0)or('3'and'7' in str(num)):
+    print("JugsPugs")
+  elif (num%5==0 and num%7==0)or('5'and'7' in str(num)):
+    print("MugsPugs")
+  elif (num%3==0)or('3' in str(num)):
+    print("Jugs")
+  elif (num%5==0)or('5' in str(num)):
+    print("Mugs")
+  elif (num%7==0)or('7' in str(num)):
+    print("Pugs")
+  else:
+    print(num)
