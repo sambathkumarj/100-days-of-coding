@@ -1,4 +1,4 @@
-#Write a program that receives a number on the input.
+# Write a program that receives a number on the input.
 It also should receive another value 'rev'  (either 0 or 1) on the input. 
 If the number is a multiple of 3, or it contains digit 3, it prints "Jugs". 
 If the number is a multiple of 5, or it contains digit 5, it prints "Mugs".
